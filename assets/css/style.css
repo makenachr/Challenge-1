@@ -1,0 +1,223 @@
+/* adds box sizing to the entire page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Changes the background color of the element */
+body {
+    background-color: #d9dcd6;
+}
+
+/* adds font, background color, padding, and text color to the class */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* changes font size and position of header text */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changes font color for header seo text */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* font, font size, and padding for header text */
+.header header {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* none list type for class */
+.header header ul {
+    list-style-type: none;
+}
+
+/* arranges header text in inline block */
+.header header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* changes text color of a */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* change font size of p */
+p {
+    font-size: 16px;
+}
+
+/* adds background image and styling for image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* float text left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* float text right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* stylize content section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* stylize benefits section */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* sets margin and text color */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* sets margin and text color */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* sets margin and text color */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* stylize benefit lead header */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* stylize benefit brand header */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* stylize benefit cost header */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* stylize benefit lead image */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* stylize benefit brand image */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* stylize benefit cost image */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* stylize search engine optimization section */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* stylize online reputation section */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* stylize social media marketing section */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* set image height */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* set image height */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* set image height */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* changes font size and margin to h2 headers */
+.h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* sylizes footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* change font size of footer header */
+.footer h2 {
+    font-size: 20px;
+}
